@@ -7,9 +7,16 @@ A brief description of the script.
 [OneClickAll Link](http://oneclickall.com/your-script)
 
 ## Dependencies
-- dependency1
-  - 변수 = 
-- dependency2
+###  dependency1
+  - 변수 = "값1"
+  - 변수2 = 123
+  - 변수3 = 135.213
+  - 변수4 = '''
+  여러줄의
+  문자열
+'''
+  - 변수5 = ["배열","도","가능"]
+### dependency2
 
 
 ## Shell Script Code
