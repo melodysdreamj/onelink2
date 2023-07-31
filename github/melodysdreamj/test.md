@@ -8,15 +8,11 @@ A brief description of the script.
 
 ## Dependencies
 ### https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test_with_dependency.md
-  - 변수 = "값1"
-  - 변수2 = 123
-  - 변수3 = 135.213
-  - 변수4 = '''
+  - 변수1 = '값1'
+  - 변수2 = '''
   여러줄의
   문자열
 '''
-  - 변수5 = ["배열","도","가능"]
-### dependency2
 
 
 ## Shell Script Code
