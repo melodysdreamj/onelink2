@@ -1,5 +1,5 @@
 ## Description & How to use
-A brief description of the script. 
+A brief description of the script. and how to use this script.
 
 ## Sample Link
 [OneClickAll Link](http://oneclickall.com/your-script)
