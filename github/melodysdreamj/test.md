@@ -7,7 +7,7 @@ A brief description of the script.
 [OneClickAll Link](http://oneclickall.com/your-script)
 
 ## Dependencies
-###  dependency1
+### https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test_with_dependency.md
   - 변수 = "값1"
   - 변수2 = 123
   - 변수3 = 135.213
