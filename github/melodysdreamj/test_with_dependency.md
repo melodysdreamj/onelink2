@@ -40,3 +40,6 @@ A brief description of the script. and how to use this script.
 --- parameter ---
 (define parameter)
 ```
+
+## Authors
+[AuthName](github link), ...
