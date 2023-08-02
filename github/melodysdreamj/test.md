@@ -1,46 +1,87 @@
-# Title
+# Description & How to use
+A brief description of the script. and how to use this script.
 
-A brief description of the script.
+## Quick Run Link
+- [OneClickAll Link](http://oneclickall.com/your-script)
 
-## ProjectName
+## Authors
+[AuthName](github link), ...
 
-Test
+## Script
+```yaml
+Config: 
+  project_folder: Test # only application type use this, if plugin type, leave this blank
 
-## Example Link
+Shell Script Code:
+  MacOS: | # if not use this OS, leave this blank
+    Code to run this script on MacOS
+  Windows: | # if not use this OS, leave this blank
+    Code to run this script on Windows
+  Linux: | # if not use this OS, leave this blank
+    Code to run this script on Linux
+    
+User Input Format:
+  description: |
+    (description line 1)
+    (description line 2)
+    (description line 3)
+  parameters:
+    parameter1: |
+        (default value of parameter1)
+    parameter2: |
+        (default value of parameter2)
 
-[OneClickAll Link](http://oneclickall.com/your-script)
+Script Imports:
+- Link: https://www.link.com
+  Trigger: 
+    type: "initial"
+    terminal_instance: "project1" # if current instance, leave this blank
+  Parameters:
+    parameter1: |
+        value1
+        value1 continued
+    parameter2: |
+        value2
+        value2 continued
 
-## Dependencies
-### https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test_with_dependency.md
-  - 변수1 = '값1'
-  - 변수2 = '''
-  여러줄의
-  문자열
-'''
+- Link: https://www.link.com
+  Trigger: 
+    type: "initial"
+    terminal_instance: 
+  Parameters:
+    parameter1: |
+        value3
+        value3 continued
+    parameter2: |
+        value4
+        value4 continued
 
+- Link: https://www.link.com
+  Trigger: 
+    type: "pattern"
+    value: "specific string pattern"
+    terminal_instance: "project2"
+  Parameters:
+    parameter1: |
+        value1
+        value1 continued
+    parameter2: |
+        value2
+        value2 continued
 
-## Shell Script Code
+- Link: https://www.link.com
+  Trigger: 
+    type: "pattern"
+    value: "another specific string pattern"
+    terminal_instance: 
+  Parameters:
+    parameter1: |
+        value3
+        value3 continued
+    parameter2: |
+        value4
+        value4 continued
 
-### MacOS
-```bash
-# Code to run this script on MacOS
-```
+Document Version: v1 # do not edit this. this is for document parser
 
-### Windows
-```powershell
-# Code to run this script on Windows
-```
-
-### Linux
-```bash
-# Code to run this script on Linux
-```
-
-## User Input Format
-```
-(description)
-
-
---- parameter ---
-(define parameter)
 ```
