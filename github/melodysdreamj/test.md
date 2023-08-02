@@ -4,9 +4,6 @@ A brief description of the script. and how to use this script.
 ## Quick Run Link
 - [OneClickAll Link](http://oneclickall.com/your-script)
 
-## Authors
-[AuthName](github link), ...
-
 ## Script
 ```yaml
 Config: 
@@ -85,3 +82,6 @@ Script Imports:
 Document Version: v1 # do not edit this. this is for document parser
 
 ```
+
+## Authors
+[AuthName](http://oneclickall.com/your-script), ...
