@@ -30,6 +30,8 @@ User Input Format:
         (default value of parameter1)
     parameter2: |
         (default value of parameter2)
+    parameter3: |
+        (default value of parameter2)
 
 Script Imports:
 - Link: https://www.link.com
@@ -53,6 +55,9 @@ Script Imports:
         value3
         value3 continued
     parameter2: |
+        value4
+        value4 continued
+    parameter3: |
         value4
         value4 continued
 
