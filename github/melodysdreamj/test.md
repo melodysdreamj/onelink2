@@ -30,9 +30,9 @@ User Input Format:
 
 Script Imports:
 - Link: https://www.link.com
-  Trigger: 
-    type: "initial"
-    terminal_instance: "project1" # if current instance, leave this blank
+  ActivationCondition: 
+    type: "onStart"
+  ownInstance: "project1_own" # this is the instance where the script runs
   Parameters:
     parameter1: |
         value1
@@ -42,9 +42,9 @@ Script Imports:
         value2 continued
 
 - Link: https://www.link.com
-  Trigger: 
-    type: "initial"
-    terminal_instance: 
+  ActivationCondition: 
+    type: "onStart"
+  ownInstance: "project2_own"
   Parameters:
     parameter1: |
         value3
@@ -54,10 +54,11 @@ Script Imports:
         value4 continued
 
 - Link: https://www.link.com
-  Trigger: 
-    type: "pattern"
+  ActivationCondition: 
+    type: "onPatternMatch"
     value: "specific string pattern"
-    terminal_instance: "project2"
+    targetInstance: "project2" # this instance is monitored for the pattern condition
+  ownInstance: "project3_own"
   Parameters:
     parameter1: |
         value1
@@ -67,10 +68,11 @@ Script Imports:
         value2 continued
 
 - Link: https://www.link.com
-  Trigger: 
-    type: "pattern"
+  ActivationCondition: 
+    type: "onPatternMatch"
     value: "another specific string pattern"
-    terminal_instance: 
+    targetInstance: 
+  ownInstance: "project4_own"
   Parameters:
     parameter1: |
         value3
@@ -78,6 +80,7 @@ Script Imports:
     parameter2: |
         value4
         value4 continued
+
 
 Document Version: v1 # do not edit this. this is for document parser
 
