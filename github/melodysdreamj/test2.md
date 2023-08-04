@@ -22,6 +22,7 @@ User Input Format:
     (description line 1)
     (description line 2)
     (description line 3)
+    Test2
   parameters:
     parameter1: |
         (default value of parameter1)
