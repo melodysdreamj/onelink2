@@ -32,7 +32,7 @@ Script Imports:
 - Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test2.md
   ActivationCondition: 
     type: "onStart"
-  ownInstance: "project1_own" # this is the instance where the script runs
+  terminalID: "project1_own" # this is the instance where the script runs
   Parameters:
     parameter1: |
         value1
@@ -44,7 +44,7 @@ Script Imports:
 - Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test3.md
   ActivationCondition: 
     type: "onStart"
-  ownInstance:
+  terminalID:
   Parameters:
     parameter1: |
         value3
@@ -57,8 +57,8 @@ Script Imports:
   ActivationCondition: 
     type: "onPatternMatch"
     value: "specific string pattern"
-    targetInstance: "project2" # this instance is monitored for the pattern condition
-  ownInstance: "project3_own"
+    targetTerminalID: "project2" # this instance is monitored for the pattern condition
+  terminalID: "project3_own"
   Parameters:
     parameter1: |
         value1
@@ -71,8 +71,8 @@ Script Imports:
   ActivationCondition: 
     type: "onPatternMatch"
     value: "another specific string pattern"
-    targetInstance: 
-  ownInstance: "project4_own"
+    targetTerminalID: 
+  terminalID: "project4_own"
   Parameters:
     parameter1: |
         value3

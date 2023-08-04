@@ -32,7 +32,7 @@ Script Imports:
 - Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test5.md
   ActivationCondition: 
     type: "onStart"
-  ownInstance: "project1_own" # this is the instance where the script runs
+  terminalID: "project1_own" # this is the instance where the script runs
   Parameters:
     parameter1: |
         value1
@@ -44,7 +44,7 @@ Script Imports:
 - Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test6.md
   ActivationCondition: 
     type: "onStart"
-  ownInstance: "project2_own"
+  terminalID: "project2_own"
   Parameters:
     parameter1: |
         value3`
