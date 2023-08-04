@@ -28,7 +28,6 @@ User Input Format:
     parameter2: |
         (default value of parameter2)
 
-Script Imports:
 
 Document Version: v1 # do not edit this. this is for document parser
 
