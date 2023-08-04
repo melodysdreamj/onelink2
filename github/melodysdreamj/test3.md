@@ -29,7 +29,7 @@ User Input Format:
         (default value of parameter2)
 
 Script Imports:
-- Link: https://www.link.com
+- Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test5.md
   ActivationCondition: 
     type: "onStart"
   ownInstance: "project1_own" # this is the instance where the script runs
@@ -41,7 +41,7 @@ Script Imports:
         value2
         value2 continued
 
-- Link: https://www.link.com
+- Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test6.md
   ActivationCondition: 
     type: "onStart"
   ownInstance: "project2_own"
@@ -52,35 +52,6 @@ Script Imports:
     parameter2: |
         value4
         value4 continued
-
-- Link: https://www.link.com
-  ActivationCondition: 
-    type: "onPatternMatch"
-    value: "specific string pattern"
-    targetInstance: "project2" # this instance is monitored for the pattern condition
-  ownInstance: "project3_own"
-  Parameters:
-    parameter1: |
-        value1
-        value1 continued
-    parameter2: |
-        value2
-        value2 continued
-
-- Link: https://www.link.com
-  ActivationCondition: 
-    type: "onPatternMatch"
-    value: "another specific string pattern"
-    targetInstance: 
-  ownInstance: "project4_own"
-  Parameters:
-    parameter1: |
-        value3
-        value3 continued
-    parameter2: |
-        value4
-        value4 continued
-
 
 Document Version: v1 # do not edit this. this is for document parser
 

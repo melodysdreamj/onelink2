@@ -29,7 +29,7 @@ User Input Format:
         (default value of parameter2)
 
 Script Imports:
-- Link: https://www.link.com
+- Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test2.md
   ActivationCondition: 
     type: "onStart"
   ownInstance: "project1_own" # this is the instance where the script runs
@@ -41,10 +41,10 @@ Script Imports:
         value2
         value2 continued
 
-- Link: https://www.link.com
+- Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test3.md
   ActivationCondition: 
     type: "onStart"
-  ownInstance: "project2_own"
+  ownInstance:
   Parameters:
     parameter1: |
         value3
@@ -53,7 +53,7 @@ Script Imports:
         value4
         value4 continued
 
-- Link: https://www.link.com
+- Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test4.md
   ActivationCondition: 
     type: "onPatternMatch"
     value: "specific string pattern"
@@ -67,7 +67,7 @@ Script Imports:
         value2
         value2 continued
 
-- Link: https://www.link.com
+- Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test5.md
   ActivationCondition: 
     type: "onPatternMatch"
     value: "another specific string pattern"
