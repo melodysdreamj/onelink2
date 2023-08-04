@@ -81,6 +81,20 @@ Script Imports:
     parameter2: |
         value4
         value4 continued
+      
+- Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test5.md
+  ActivationCondition: 
+    type: "onPatternMatch"
+    value: "another specific string pattern"
+    targetTerminalID: 
+  terminalID: "project4_own"
+  Parameters:
+    parameter1: |
+        value3
+        value3 continued
+    parameter2: |
+        value4
+        value4 continued
 
 
 Document Version: v1 # do not edit this. this is for document parser
