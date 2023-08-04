@@ -47,7 +47,7 @@ Script Imports:
   ownInstance: "project2_own"
   Parameters:
     parameter1: |
-        value3`
+        value3
         value3 continued
     parameter2: |
         value4
