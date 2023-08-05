@@ -14,8 +14,6 @@ Shell Script Code:
     Code to run this script on MacOS
   Windows: | # if not use this OS, leave this blank
     Code to run this script on Windows
-  Linux: | # if not use this OS, leave this blank
-    Code to run this script on Linux
     
 User Input Format:
   Description: |

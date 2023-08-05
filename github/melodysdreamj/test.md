@@ -28,6 +28,14 @@ User Input Format:
         (default value of parameter1)
     parameter2: |
         (default value of parameter2)
+  AutoInput:
+    - triggerString: "specific string pattern1"  # String pattern to trigger the input
+      inputStrings:                              # Array of automatic responses for the specified pattern
+        - "automatic response1"
+        - "automatic response2"
+      targetTerminalID: "project2_terminal"  # Terminal instance ID to receive the automatic input. If left blank, it targets the current instance.
+
+  
 
 Script Imports:
 - Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test2.md
@@ -41,6 +49,12 @@ Script Imports:
     parameter2: |
         value2
         value2 continued
+  AutoInput:
+    - triggerString: "specific string pattern1"  # String pattern to trigger the input
+      inputStrings:                              # Array of automatic responses for the specified pattern
+        - "automatic response1"
+        - "automatic response2"
+      targetTerminalID: "project2_terminal"  # Terminal instance ID to receive the automatic input. If left blank, it targets the current instance.
 
 - Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test3.md
   ActivationCondition: 
