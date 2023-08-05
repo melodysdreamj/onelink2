@@ -57,7 +57,7 @@ Script Imports:
 - Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test4.md
   ActivationCondition: 
     type: "onPatternMatch"
-    value: "another specific string pattern"
+    triggerString: "another specific string pattern"
     targetTerminalID: 
   TerminalID: "project4_own"
   Parameters:
@@ -77,7 +77,7 @@ Script Imports:
 - Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test7.md
   ActivationCondition: 
     type: "onPatternMatch"
-    value: "another specific string pattern 22"
+    triggerString: "another specific string pattern 22"
     targetTerminalID: 
   TerminalID: "project4_own"
   Parameters:
