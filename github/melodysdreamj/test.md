@@ -6,8 +6,6 @@ A brief Description of the script. and how to use this script.
 
 ## Script
 ```yaml
-Config: 
-  project_folder: Test # only application type use this, if plugin type, leave this blank
 
 Shell Script Code:
   MacOS: | # if not use this OS, leave this blank
@@ -34,6 +32,11 @@ User Input Format:
         - "automatic response1"
         - "automatic response2"
       targetTerminalID: "project2_terminal"  # Terminal instance ID to receive the automatic input. If left blank, it targets the current instance.
+    - triggerString: "specific string pattern2"  # String pattern to trigger the input
+      inputStrings:                              # Array of automatic responses for the specified pattern
+        - "automatic response3"
+        - "automatic response4"
+      targetTerminalID:  # Terminal instance ID to receive the automatic input. If left blank, it targets the current instance.
 
   
 
