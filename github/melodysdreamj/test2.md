@@ -1,5 +1,5 @@
 # Description & How to use
-A brief description of the script. and how to use this script.
+A brief Description of the script. and how to use this script.
 
 ## Quick Run Link
 - [OneClickAll Link](http://oneclickall.com/your-script)
@@ -18,12 +18,12 @@ Shell Script Code:
     Code to run this script on Linux
     
 User Input Format:
-  description: |
-    (description line 1)
-    (description line 2)
-    (description line 3)
+  Description: |
+    (Description line 1)
+    (Description line 2)
+    (Description line 3)
     Test2
-  parameters:
+  Parameters:
     parameter1: |
         (default value of parameter1)
     parameter2: |
@@ -33,7 +33,7 @@ Script Imports:
 - Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test5.md
   ActivationCondition: 
     type: "onStart"
-  terminalID: "project1_own" # this is the instance where the script runs
+  TerminalID: "project1_own" # this is the instance where the script runs
   Parameters:
     parameter1: |
         value1
@@ -45,7 +45,7 @@ Script Imports:
 - Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test6.md
   ActivationCondition: 
     type: "onStart"
-  terminalID: "project2_own"
+  TerminalID: "project2_own"
   Parameters:
     parameter1: |
         value3`

@@ -1,5 +1,5 @@
 # Description & How to use
-A brief description of the script. and how to use this script.
+A brief Description of the script. and how to use this script.
 
 ## Quick Run Link
 - [OneClickAll Link](http://oneclickall.com/your-script)
@@ -18,12 +18,12 @@ Shell Script Code:
     Code to run this script on Linux
     
 User Input Format:
-  description: |
-    (description line 1)
-    (description line 2)
-    (description line 3)
+  Description: |
+    (Description line 1)
+    (Description line 2)
+    (Description line 3)
     Test1
-  parameters:
+  Parameters:
     parameter1: |
         (default value of parameter1)
     parameter2: |
@@ -33,7 +33,7 @@ Script Imports:
 - Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test2.md
   ActivationCondition: 
     type: "onStart"
-  terminalID: "project1_own" # this is the instance where the script runs
+  TerminalID: "project1_own" # this is the instance where the script runs
   Parameters:
     parameter1: |
         value1
@@ -45,7 +45,7 @@ Script Imports:
 - Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test3.md
   ActivationCondition: 
     type: "onStart"
-  terminalID:
+  TerminalID:
   Parameters:
     parameter1: |
         value3
@@ -59,7 +59,7 @@ Script Imports:
     type: "onPatternMatch"
     value: "specific string pattern"
     targetTerminalID: "project2" # this instance is monitored for the pattern condition
-  terminalID: "project3_own"
+  TerminalID: "project3_own"
   Parameters:
     parameter1: |
         value1
@@ -73,7 +73,7 @@ Script Imports:
     type: "onPatternMatch"
     value: "another specific string pattern"
     targetTerminalID: 
-  terminalID: "project4_own"
+  TerminalID: "project4_own"
   Parameters:
     parameter1: |
         value3
@@ -87,7 +87,7 @@ Script Imports:
     type: "onPatternMatch"
     value: "another specific string pattern"
     targetTerminalID: 
-  terminalID: "project4_own"
+  TerminalID: "project4_own"
   Parameters:
     parameter1: |
         value3

@@ -1,5 +1,5 @@
 # Description & How to use
-A brief description of the script. and how to use this script.
+A brief Description of the script. and how to use this script.
 
 ## Quick Run Link
 - [OneClickAll Link](http://oneclickall.com/your-script)
@@ -18,12 +18,12 @@ Shell Script Code:
     Code to run this script on Linux
     
 User Input Format:
-  description: |
-    (description line 1)
-    (description line 2)
-    (description line 3)
+  Description: |
+    (Description line 1)
+    (Description line 2)
+    (Description line 3)
     Test6
-  parameters:
+  Parameters:
     parameter1: |
         (default value of parameter1)
     parameter2: |
