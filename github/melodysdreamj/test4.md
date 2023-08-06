@@ -10,12 +10,27 @@ Config:
   project_folder: Test # only application type use this, if plugin type, leave this blank
 
 Shell Script Code:
-  MacOS: | # if not use this OS, leave this blank
-    Code to run this script on MacOS
-  Windows: | # if not use this OS, leave this blank
-    Code to run this script on Windows
-  Linux: | # if not use this OS, leave this blank
-    Code to run this script on Linux
+  Default:
+    MacOS: | # if not use this OS, leave this blank
+      Code to run this script on MacOS
+    Windows: | # if not use this OS, leave this blank
+      Code to run this script on Windows
+    Linux: | # if not use this OS, leave this blank
+      Code to run this script on Linux
+  ReInstall:
+    MacOS: | # if not use this OS, leave this blank
+      Code to run this script on MacOS
+    Windows: | # if not use this OS, leave this blank
+      Code to run this script on Windows
+    Linux: | # if not use this OS, leave this blank
+      Code to run this script on Linux
+  Launch:
+    MacOS: | # if not use this OS, leave this blank
+      Code to run this script on MacOS
+    Windows: | # if not use this OS, leave this blank
+      Code to run this script on Windows
+    Linux: | # if not use this OS, leave this blank
+      Code to run this script on Linux
 
 User Input Format:
   Description: |
