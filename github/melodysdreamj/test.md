@@ -23,14 +23,6 @@ User Input Format:
     (Description line 3)
     Test1
   Parameters:
-    parameter1:
-      Type: "RadioButton"
-      Description: "Select your favorite fruit:"
-      Options: 
-        - "Apple"
-        - "Banana"
-        - "Cherry"
-      Default: "Apple"
     parameter3:
       Type: "Select"
       Description: "Select your country:"
@@ -39,10 +31,6 @@ User Input Format:
         - "Canada"
         - "South Korea"
       Default: "United States"
-    parameter4:
-      Type: "FileUpload"
-      Description: "Upload your file:"
-      FileType: "png, jpg, jpeg"
     parameter5:
       Type: "CheckBox"
       Description: "Agree to the terms and conditions:"
@@ -122,14 +110,6 @@ Script Imports:
     targetTerminalID: "project2" # this instance is monitored for the pattern condition
   TerminalID: "project3_own"
   Parameters:
-    parameter1:
-      Type: "RadioButton"
-      Description: "Select your favorite fruit:"
-      Options: 
-        - "Apple"
-        - "Banana"
-        - "Cherry"
-      Default: "Apple"
     parameter3:
       Type: "Select"
       Description: "Select your country:"
@@ -138,10 +118,6 @@ Script Imports:
         - "Canada"
         - "South Korea"
       Default: "United States"
-    parameter4:
-      Type: "FileUpload"
-      Description: "Upload your file:"
-      FileType: "png, jpg, jpeg"
     parameter5:
       Type: "CheckBox"
       Description: "Agree to the terms and conditions:"
