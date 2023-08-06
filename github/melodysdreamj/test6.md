@@ -22,9 +22,15 @@ User Input Format:
     (Description line 3)
     Test6
   Parameters:
-    parameter1: |
+    parameter1: 
+      Type: "Text"
+      Description: "Describe yourself:"
+      Default: |
         (default value of parameter1)
-    parameter2: |
+    parameter2: 
+      Type: "Text"
+      Description: "Describe yourself:"
+      Default: |
         (default value of parameter2)
 
 Script Imports:

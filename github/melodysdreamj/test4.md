@@ -24,9 +24,15 @@ User Input Format:
     (Description line 3)
     Test4
   Parameters:
-    parameter1: |
+    parameter1: 
+      Type: "Text"
+      Description: "Describe yourself:"
+      Default: |
         (default value of parameter1)
-    parameter2: |
+    parameter2: 
+      Type: "Text"
+      Description: "Describe yourself:"
+      Default: |
         (default value of parameter2)
   AutoInput:
     - triggerString: "specific string pattern1"  # String pattern to trigger the input

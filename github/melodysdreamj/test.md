@@ -78,10 +78,16 @@ Script Imports:
     type: "onStart"
   TerminalID: "project1_own" # this is the instance where the script runs
   Parameters:
-    parameter1: |
+    parameter1: 
+      Type: "Text"
+      Description: "Describe yourself:"
+      Default: |
         value1
         value1 continued
-    parameter2: |
+    parameter2: 
+      Type: "Text"
+      Description: "Describe yourself:"
+      Default: |
         value2
         value2 continued
   AutoInput:
@@ -96,10 +102,16 @@ Script Imports:
     type: "onStart"
   TerminalID:
   Parameters:
-    parameter1: |
+    parameter1: 
+      Type: "Text"
+      Description: "Describe yourself:"
+      Default: |
         value3
         value3 continued
-    parameter2: |
+    parameter2: 
+      Type: "Text"
+      Description: "Describe yourself:"
+      Default: |
         value4
         value4 continued
 
@@ -153,10 +165,16 @@ Script Imports:
     targetTerminalID: 
   TerminalID: "project4_own"
   Parameters:
-    parameter1: |
+    parameter1: 
+      Type: "Text"
+      Description: "Describe yourself:"
+      Default: |
         value3
         value3 continued
-    parameter2: |
+    parameter2: 
+      Type: "Text"
+      Description: "Describe yourself:"
+      Default: |
         value4
         value4 continued
       
@@ -167,10 +185,16 @@ Script Imports:
     targetTerminalID: 
   TerminalID: "project4_own"
   Parameters:
-    parameter1: |
+    parameter1: 
+      Type: "Text"
+      Description: "Describe yourself:"
+      Default: |
         value3
         value3 continued
-    parameter2: |
+    parameter2: 
+      Type: "Text"
+      Description: "Describe yourself:"
+      Default: |
         value4
         value4 continued
 
