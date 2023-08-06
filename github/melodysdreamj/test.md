@@ -7,6 +7,7 @@ A brief Description of the script. and how to use this script.
 ## Script
 ```yaml
 
+
 Shell Script Code:
   MacOS: | # if not use this OS, leave this blank
     Code to run this script on MacOS
@@ -22,10 +23,41 @@ User Input Format:
     (Description line 3)
     Test1
   Parameters:
-    parameter1: |
-        (default value of parameter1)
-    parameter2: |
-        (default value of parameter2)
+    parameter1:
+      Type: "RadioButton"
+      Description: "Select your favorite fruit:"
+      Options: 
+        - "Apple"
+        - "Banana"
+        - "Cherry"
+      Default: "Apple"
+    parameter3:
+      Type: "Select"
+      Description: "Select your country:"
+      Options: 
+        - "United States"
+        - "Canada"
+        - "South Korea"
+      Default: "United States"
+    parameter4:
+      Type: "FileUpload"
+      Description: "Upload your file:"
+      FileType: "png, jpg, jpeg"
+    parameter5:
+      Type: "CheckBox"
+      Description: "Agree to the terms and conditions:"
+      Default: false
+    parameter12:
+      Type: "RangeSlider"
+      Description: "Select your satisfaction level:"
+      Min: 1
+      Max: 10
+      Default: 5
+    parameter13:
+      Type: "Text"
+      Description: "Describe yourself:"
+      Default: |
+          (default value of parameter1)
   AutoInput:
     - triggerString: "specific string pattern1"  # String pattern to trigger the input
       inputStrings:                              # Array of automatic responses for the specified pattern
@@ -78,12 +110,41 @@ Script Imports:
     targetTerminalID: "project2" # this instance is monitored for the pattern condition
   TerminalID: "project3_own"
   Parameters:
-    parameter1: |
-        value1
-        value1 continued
-    parameter2: |
-        value2
-        value2 continued
+    parameter1:
+      Type: "RadioButton"
+      Description: "Select your favorite fruit:"
+      Options: 
+        - "Apple"
+        - "Banana"
+        - "Cherry"
+      Default: "Apple"
+    parameter3:
+      Type: "Select"
+      Description: "Select your country:"
+      Options: 
+        - "United States"
+        - "Canada"
+        - "South Korea"
+      Default: "United States"
+    parameter4:
+      Type: "FileUpload"
+      Description: "Upload your file:"
+      FileType: "png, jpg, jpeg"
+    parameter5:
+      Type: "CheckBox"
+      Description: "Agree to the terms and conditions:"
+      Default: false
+    parameter12:
+      Type: "RangeSlider"
+      Description: "Select your satisfaction level:"
+      Min: 1
+      Max: 10
+      Default: 5
+    parameter13:
+      Type: "Text"
+      Description: "Describe yourself:"
+      Default: |
+          (default value of parameter1)
 
 - Link: https://github.com/onelink-is-all-you-need/onelink-is-all-you-need/blob/main/github/melodysdreamj/test5.md
   ActivationCondition: 
@@ -115,6 +176,8 @@ Script Imports:
 
 
 Document Version: v1 # do not edit this. this is for document parser
+
+
 
 ```
 
